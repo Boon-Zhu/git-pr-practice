@@ -8,7 +8,7 @@ def login(username, password):
     if username == "admin" and password == "123456":
         return {
             "success": True,
-            "message": "Login successful"
+            "message": "Welcome! Login successful."
         }
 
     return {
